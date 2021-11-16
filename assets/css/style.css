@@ -10,10 +10,7 @@ html {
 body {
     max-width: 1440px;
 	background: hsl(0, 0%, 95%); /* Very light gray (background, headings, buttons) */
-    font-size: 15px;
-    font-family: 'Big Shoulders Display', cursive;
-    font-family: 'Lexend Deca', sans-serif;
-    
+    font-size: 100%;
 }
 
 /* clearfix */
@@ -30,6 +27,28 @@ body {
 .group {
 	*zoom: 1;
 }
+
+.container {
+    max-width: 1000px;
+}
+
+/* Column setup */
+.column {
+   max-width: 300px; 
+}
+
+.column h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.column p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    max-width: 60%;
+}
+
 
 /* Footer signature */
 .attribution { font-size: 11px; text-align: center; }
