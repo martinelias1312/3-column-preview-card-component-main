@@ -9,8 +9,7 @@ html {
 
 body {
     max-width: 1440px;
-	background: hsl(0, 0%, 95%); /* Very light gray (background, headings, buttons) */
-    font-size: 15px;
+	background: hsl(0, 0%, 95%); /* Very light gray (background, headings, buttons) */ 
     line-height: 23px;
 }
 
@@ -58,6 +57,7 @@ main  {
 .column p {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
+    font-size: 15px;
     color: hsla(0, 0%, 100%, 0.75);
     margin-bottom: 140px;
 }
