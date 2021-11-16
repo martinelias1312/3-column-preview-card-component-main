@@ -27,11 +27,14 @@ body {
 .group {
 	*zoom: 1;
 }
+
+/* Main container */
 main  {
     margin: 10% auto;
     max-width: 990px;
     height: 500px;
 }
+
 /* Column setup */
 .column {
    width: 330px;
@@ -50,7 +53,6 @@ main  {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     color: hsla(0, 0%, 100%, 0.75);
-    max-width: 80%;
 }
 
 .column a {
@@ -64,6 +66,8 @@ main  {
 /* Sedans column */
 .sedans {
     background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%;
     float: left;
 }
 
@@ -84,6 +88,8 @@ main  {
 /* Luxury column */
 .luxury {
     background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 2%;
+    border-top-right-radius: 2%;
     float: left;
 }
 
@@ -94,3 +100,5 @@ main  {
 /* Footer signature */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+/* Media Querries Mobile: 375px */ 
