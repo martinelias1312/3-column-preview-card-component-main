@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot 1440px](assets/img/1440px Frontend Mentor 3-column-preview-card-component.png)
-![Screenshot 375px](assets/img/375px Frontend Mentor 3-column-preview-card-component.png)
+![Screenshot 1440px](./assets/img/1440px Frontend Mentor 3-column-preview-card-component.png)
+![Screenshot 375px](./assets/img/375px Frontend Mentor 3-column-preview-card-component.png)
 
 ### Links
 
