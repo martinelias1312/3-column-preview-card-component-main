@@ -133,4 +133,14 @@ main  {
     .sedans, .suvs, .luxury {
         float: none;
     }
+
+    .sedans {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 2%;
+    }
+
+    .luxury {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 2%;
+    }
 }
