@@ -10,7 +10,7 @@ html {
 body {
     max-width: 1440px;
 	background: hsl(0, 0%, 95%); /* Very light gray (background, headings, buttons) */
-    font-size: 100%;
+    font-size: 15px;
 }
 
 /* clearfix */
@@ -41,14 +41,36 @@ body {
     font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
 }
 
 .column p {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
     max-width: 60%;
 }
 
+.column a {
+    text-decoration: none;
+    text-align: center;
+    color: hsl(0, 0%, 95%);
+}
+
+/* Sedans column */
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+/* SUVs column */
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+/* Luxury column */
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
 
 /* Footer signature */
 .attribution { font-size: 11px; text-align: center; }
