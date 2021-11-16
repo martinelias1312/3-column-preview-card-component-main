@@ -128,4 +128,9 @@ main  {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-/* Media Querries Mobile: 375px */ 
+/* Media Queries Mobile: 375px */ 
+@media screen and ( max-width:375px ){
+    .sedans, .suvs, .luxury {
+        float: none;
+    }
+}
