@@ -11,6 +11,7 @@ body {
     max-width: 1440px;
 	background: hsl(0, 0%, 95%); /* Very light gray (background, headings, buttons) */
     font-size: 15px;
+    line-height: 23px;
 }
 
 /* clearfix */
@@ -56,11 +57,13 @@ main  {
 }
 
 .column a {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
     text-decoration: none;
     text-align: center;
     background-color: hsl(0, 0%, 95%);
     border-radius: 20% / 50%;
-    padding: 10px;
+    padding: 15px 20px;
 }
 
 /* Sedans column */
@@ -75,6 +78,12 @@ main  {
     color: hsl(31, 77%, 52%);
 }
 
+.sedans a:hover {
+    border: solid 2px hsl(0, 0%, 95%);
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
+}
+
 /* SUVs column */
 .suvs {
     background-color: hsl(184, 100%, 22%);
@@ -83,6 +92,12 @@ main  {
 
 .suvs a {
     color: hsl(184, 100%, 22%);
+}
+
+.suvs a:hover {
+    border: solid 2px hsl(0, 0%, 95%);
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%);
 }
 
 /* Luxury column */
@@ -95,6 +110,12 @@ main  {
 
 .luxury a {
     color: hsl(179, 100%, 13%);
+}
+
+.suvs a:hover {
+    border: solid 2px hsl(0, 0%, 95%);
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(179, 100%, 13%);
 }
 
 /* Footer signature */
