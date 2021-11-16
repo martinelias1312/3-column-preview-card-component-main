@@ -36,6 +36,7 @@ main  {
 .column {
    width: 330px;
    height: 100%;
+   padding: 50px;
 }
 
 .column h1 {
@@ -49,13 +50,15 @@ main  {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     color: hsla(0, 0%, 100%, 0.75);
-    max-width: 60%;
+    max-width: 80%;
 }
 
 .column a {
     text-decoration: none;
     text-align: center;
-    color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20% / 50%;
+    padding: 10px;
 }
 
 /* Sedans column */
@@ -64,16 +67,28 @@ main  {
     float: left;
 }
 
+.sedans a {
+    color: hsl(31, 77%, 52%);
+}
+
 /* SUVs column */
 .suvs {
     background-color: hsl(184, 100%, 22%);
     float: left;
 }
 
+.suvs a {
+    color: hsl(184, 100%, 22%);
+}
+
 /* Luxury column */
 .luxury {
     background-color: hsl(179, 100%, 13%);
     float: left;
+}
+
+.luxury a {
+    color: hsl(179, 100%, 13%);
 }
 
 /* Footer signature */
