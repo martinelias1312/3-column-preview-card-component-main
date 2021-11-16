@@ -27,14 +27,15 @@ body {
 .group {
 	*zoom: 1;
 }
-
-.container {
-    max-width: 1000px;
+main  {
+    margin: 10% auto;
+    max-width: 990px;
+    height: 500px;
 }
-
 /* Column setup */
 .column {
-   max-width: 300px; 
+   width: 330px;
+   height: 100%;
 }
 
 .column h1 {
@@ -60,16 +61,19 @@ body {
 /* Sedans column */
 .sedans {
     background-color: hsl(31, 77%, 52%);
+    float: left;
 }
 
 /* SUVs column */
 .suvs {
     background-color: hsl(184, 100%, 22%);
+    float: left;
 }
 
 /* Luxury column */
 .luxury {
     background-color: hsl(179, 100%, 13%);
+    float: left;
 }
 
 /* Footer signature */
