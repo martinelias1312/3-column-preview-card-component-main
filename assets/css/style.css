@@ -32,15 +32,19 @@ body {
 /* Main container */
 main  {
     margin: 10% auto;
-    max-width: 990px;
+    max-width: 900px;
     height: 500px;
 }
 
 /* Column setup */
 .column {
-   width: 330px;
+   width: 300px;
    height: 100%;
    padding: 50px;
+}
+
+.column img {
+    margin-bottom: 10px;
 }
 
 .column h1 {
@@ -48,12 +52,14 @@ main  {
     font-weight: 700;
     text-transform: uppercase;
     color: hsl(0, 0%, 95%);
+    margin-bottom: 20px;
 }
 
 .column p {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 140px;
 }
 
 .column a {
