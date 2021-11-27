@@ -30,6 +30,7 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [https://3-column-preview-card-component-main-plum-phi.vercel.app/](https://3-column-preview-card-component-main-plum-phi.vercel.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/basics-of-html5-css-techniques-like-box-sizing-float-with-clearfix-40qUQh-m0](https://www.frontendmentor.io/solutions/basics-of-html5-css-techniques-like-box-sizing-float-with-clearfix-40qUQh-m0)
 
 ## My process
 
